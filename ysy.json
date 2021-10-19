@@ -4,7 +4,7 @@
   "mitmhost": ["api.ys7.com"],
   "rewrite": [
     {
-      "match": "https://api.ys7.com/v3/integral/yd/pay",
+      "match": "https://api.ys7.com/v3/integral/yd",
       "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js",
       "enable": true
     },
@@ -13,10 +13,5 @@
       "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js",
       "enable": true
     },
-    {
-      "match": "https://api.ys7.com/v3/integral/yd/payn",
-      "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js",
-      "enable": true
-    }, 
   ]
 }
