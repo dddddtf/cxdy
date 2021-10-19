@@ -1,0 +1,22 @@
+{
+  "name": "萤石云重写订阅",
+  "author": "elecV2p",
+  "mitmhost": ["api.ys7.com"],
+  "rewrite": [
+    {
+      "match": "https://api.ys7.com/v3/integral/yd/pay",
+      "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js",
+      "enable": true
+    },
+    {
+      "match": "https://api.ys7.com/v3/users/login/v2",
+      "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js",
+      "enable": true
+    },
+    {
+      "match": "https://api.ys7.com/v3/integral/yd/payn",
+      "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js",
+      "enable": true
+    }, 
+  ]
+}
