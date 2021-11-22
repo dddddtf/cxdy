@@ -1,0 +1,17 @@
+{
+  "name": "抖音极速版重写订阅",
+  "author": "elecV2p",
+  "mitmhost": ["*.amemv.com"],
+  "rewrite": [
+    {
+      "match": "luckycat/aweme/v1/task/sign_in/detail?",
+      "target": "https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/dyjsb.js",
+      "enable": true
+    },
+    {
+      "match": "luckycat/aweme/v1/task/done/(read|treasure_task|excitation_ad_treasure_box|excitation_ad)?",
+      "target": "https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/dyjsb.js",
+      "enable": true
+    },
+  ]
+}
