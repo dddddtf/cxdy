@@ -1,0 +1,21 @@
+{
+  "name": "番茄看看前台重写订阅",
+  "author": "elecV2p",
+  "rewrite": [
+    {
+      "match": "^http://.+/(task/read|t/show.html)\?",
+      "target": "fqkk_auto.js",
+      "enable": true
+    },
+    {
+      "match": "^http://.+/fast_reada/j?\?",
+      "target": "fqkk_auto.js",
+      "enable": true
+    },
+    {
+      "match": "^http://.+/mock/read",
+      "target": "fqkk_auto.js",
+      "enable": true
+    }, 
+  ]
+}
