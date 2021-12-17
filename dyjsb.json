@@ -9,7 +9,22 @@
       "enable": true
     },
     {
-      "match": "luckycat/aweme/v1/task/done/(read|treasure_task|excitation_ad_treasure_box|excitation_ad)?",
+      "match": "luckycat/aweme/v1/task/done/read?",
+      "target": "https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/dyjsb.js",
+      "enable": true
+    },
+    {
+      "match": "luckycat/aweme/v1/task/done/treasure_task?",
+      "target": "https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/dyjsb.js",
+      "enable": true
+    },
+    {
+      "match": "luckycat/aweme/v1/task/done/excitation_ad_treasure_box?",
+      "target": "https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/dyjsb.js",
+      "enable": true
+    },
+    {
+      "match": "luckycat/aweme/v1/task/done/excitation_ad?",
       "target": "https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/dyjsb.js",
       "enable": true
     },
